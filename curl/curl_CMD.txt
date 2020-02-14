@@ -1,0 +1,6 @@
+1. curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X get http://localhost/newclub/videoclub/public/api/v1/catalog
+2. curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X get http://localhost/newclub/videoclub/public/api/v1/catalog/2
+3. curl -u mssoulaimane@gmail.com:soulaimane -X put -d 'title=elpadrinoapi' http://localhost/newclub/videoclub/public/api/v1/catalog/2
+4. curl -u mssoulaimane@gmail.com:soulaimane -X DELETE http://localhost/newclub/videoclub/public/api/v1/catalog/27
+5. curl -u mssoulaimane@gmail.com:soulaimane -X put http://localhost/newclub/videoclub/public/api/v1/catalog/2/rent
+6. curl -u mssoulaimane@gmail.com:soulaimane -X put http://localhost/newclub/videoclub/public/api/v1/catalog/2/return 
